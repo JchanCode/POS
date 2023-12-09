@@ -1,0 +1,10 @@
+<p>selection-bridge works!</p>
+<div class="menu-items-container">
+    @for (item of menu; track item.id) {
+        <menu-item 
+            [item]="item"
+            (itemSelectedEvent)="addItemToReceipt($event)"
+        >
+        </menu-item>
+    }
+</div>

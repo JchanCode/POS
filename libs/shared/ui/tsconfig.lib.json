@@ -13,5 +13,5 @@
     "jest.config.ts",
     "src/**/*.test.ts"
   ],
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "../../../apps/angular-monorepo/src/app/components/menu-item/menu-item.mocks.ts", "../../../apps/angular-monorepo/src/app/components/menu-item/menu-item.types.ts"]
 }

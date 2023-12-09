@@ -5,6 +5,7 @@
   "prefix": "angular-monorepo",
   "sourceRoot": "apps/angular-monorepo/src",
   "tags": [],
+  "_": "targets is task ex: test, build, serve",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

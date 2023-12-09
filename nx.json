@@ -65,5 +65,8 @@
       "style": "scss"
     }
   },
-  "nxCloudAccessToken": "Y2YwMTUzNWItYTQzZS00NzI2LWI3ODEtMWM0YWU1YzI5NjVkfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "M2M2NjliOGItNmRiOS00OGU1LTg1MDktZGFmNWRlOGFlYmUzfHJlYWQtd3JpdGU=",
+  "affected": {
+    "defaultBase": "main"
+  }
 }

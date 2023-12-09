@@ -1,2 +1,9 @@
-<angular-monorepo-nx-welcome></angular-monorepo-nx-welcome>
 <router-outlet></router-outlet>
+<h1>POS</h1>
+@for (item of menu; track item.id) {
+    <menu-item 
+        [item]="item"
+        (itemSelectedEvent)="addItemToReceipt($event)"
+    >
+    </menu-item>
+}
